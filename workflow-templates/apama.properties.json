@@ -1,0 +1,14 @@
+{
+    "name": "Apama Workflow",
+    "description": "Build an Apama project (including Java/C++ plugins and ApamaDoc) and test with PySys",
+    "iconName": "Software_AG_logo.svg",
+    "categories": [
+        "Apama",
+        "ApamaCommunity",
+        "SoftwareAG",
+        "PySys"
+    ],
+    "filePatterns": [
+        "test"
+    ]
+}
