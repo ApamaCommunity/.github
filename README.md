@@ -1,15 +1,16 @@
 # GitHub Action sample workflow
 
 See https://github.com/ApamaCommunity/.github/blob/main/workflow-templates/apama.yml for a starter workflow you can 
-copy into your repo's `.github/workflows` directory to add the ability to build and test your Apama applications 
+copy into your repo's `.github/workflows/` directory to add the ability to build and test your Apama applications 
 with GitHub Actions. 
 
 This workflow includes:
-	- installing Apama Community Edition on both Windows and Linux using the https://github.com/ApamaCommunity/github-action-setup-apama action
-	- building ApamaDoc HTML from your Apama EPL files and publishing it to your repo's gh-pages branch
-	- building C++ and Java plug-ins
-	- executing a suite of PySys tests
-	- uploading an EPL coverage coverage zip (on success) or a zip of test output directories (on failure)
+
+* installing Apama Community Edition on both Windows and Linux using the https://github.com/ApamaCommunity/github-action-setup-apama action
+* building ApamaDoc HTML from your Apama EPL files and publishing it to your repo's gh-pages branch
+* building C++ and Java plug-ins
+* executing a suite of PySys tests
+* uploading an EPL coverage coverage zip (on success) or a zip of test output directories (on failure)
 
 Note that the Linux environment usually executes quite a lot faster than the Windows one, so if you don't need 
 multi-platform testing, use a workflow that runs only on Linux for maximum efficiency. You should also delete the 
