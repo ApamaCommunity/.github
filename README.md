@@ -19,7 +19,7 @@ time-consuming.
 
 # License
 
-Installing Apama Community Edition using the setup-apama action in this workflow implies agreement to the terms 
+Installing Apama Community Edition using the setup-apama action in this workflow implies agreement to the 
 terms and conditions; see http://www.apamacommunity.com/terms-conditions/
 
 This workflow sample is:
