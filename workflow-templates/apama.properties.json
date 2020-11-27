@@ -9,6 +9,7 @@
         "PySys"
     ],
     "filePatterns": [
-        "test"
+        "test",
+        "tests"
     ]
 }
