@@ -17,17 +17,13 @@ on:
 
 jobs:
   test:
-    env:
-      # Keep this updated with the latest version from http://www.apamacommunity.com/downloads/
-      SETUP_APAMA_VERSION: 10.5.3.2
-
     strategy:
       # Disable fail fast since it's useful to see test results for all platforms even if some failed
       fail-fast: false
       
       matrix:
           # The 4-digit version to download from http://www.apamacommunity.com/downloads/
-        apama-version: 10.5.3.2
+        apama-version: ["10.5.3.2"]
       
         include:
           - run-id: amd64_linux
